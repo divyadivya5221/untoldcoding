@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ 
+ <meta charset="UTF-8">
+ 
+ <title>Currency Converter</title>
+
+<link rel="stylesheet"href="style.css">
+</head>
+
+<body>
+
+ <div class="converter">
+ <h2>Currency Converter</h2>
+ 
+ <input type="number" id="amount" placeholder="Enter amount" />
+
+ 
+ <select id="fromCurrency">
+    
+<option value="INR">INR</option>
+    
+<option value="USD">USD</option>
+    
+<option value="EUR">EUR</option>
+<option value="Jpy">Jpy</option>
+<option value="AUD">AUD</option>
+<option value="CHF">CHF</option>
+</select>
+
+  
+<span>to</span>
+
+  
+<select id="toCurrency">
+    
+<option value="USD">USD</option>
+    
+<option value="INR">INR</option>
+    
+<option value="EUR">EUR</option>
+
+<option value="Jpy">Jpy</option>
+<option value="AUD">AUD</option>
+<option value="CHF">CHF</option>
+</select>
+
+  
+<button onclick="convertCurrency()">Convert</button>
+
+
+ <p id="result"></p>
+
+  
+<script src="script.js"></script>
+
+</body>
+
+</html>
